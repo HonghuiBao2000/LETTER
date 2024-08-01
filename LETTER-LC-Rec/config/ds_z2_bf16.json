@@ -1,0 +1,28 @@
+{
+    "bf16": {
+      "enabled": "auto"
+    },
+    "zero_optimization": {
+        "stage": 2,
+        "allgather_partitions": true,
+        "allgather_bucket_size": 5e8,
+        "overlap_comm": true,
+        "reduce_scatter": true,
+        "reduce_bucket_size": 5e8,
+        "contiguous_gradients": true
+    },
+    "gradient_accumulation_steps": "auto",
+    "gradient_clipping": "auto",
+    "steps_per_print": 2000,
+    "train_batch_size": "auto",
+    "train_micro_batch_size_per_gpu": "auto",
+    "wall_clock_breakdown": false,
+    "flops_profiler": {
+        "enabled": true,
+        "profile_step": 10,
+        "module_depth": -1,
+        "top_modules": 3,
+        "detailed": true,
+        "output_file": "flops_profiler.out"
+    }
+}
