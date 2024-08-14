@@ -29,13 +29,13 @@ transformers
 ### Train
 
 ```
-bash LETTER-TIGER/train_tokenizer.sh 
+bash RQ-VAE/train_tokenizer.sh 
 ```
 
 ### Tokenize
 
 ```
-bash LETTER-TIGER/tokenize.sh 
+bash RQ-VAE/tokenize.sh 
 ```
 
 ## Instantiation
