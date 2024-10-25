@@ -53,3 +53,14 @@ bash run_train.sh
 cd LETTER-LC-Rec
 bash run_train.sh
 ```
+
+## Citation
+If you find our work is useful for your research, please consider citing: 
+```
+@inproceedings{wang2024learnableitemtokenizationgenerative,
+  title = {Learnable Item Tokenization for Generative Recommendation},
+  author = {Wang, Wenjie and Bao, Honghui and Lin, Xinyu and Zhang, Jizhi and Li, Yongqi and Feng, Fuli and Ng, See-Kiong and Chua, Tat-Seng},
+  booktitle = {International Conference on Information and Knowledge Management},
+  year = {2024}
+}
+```
