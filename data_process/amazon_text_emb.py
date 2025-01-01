@@ -53,7 +53,7 @@ def generate_item_embedding(args, item_text_list, tokenizer, model, word_drop_ra
     items, texts = zip(*item_text_list)
     order_texts = [[0]] * len(items)
     for item, text in zip(items, texts):
-        order_texts[item-1] = text
+        order_texts[item] = text
     for text in order_texts:
         assert text != [0]
 
